@@ -49,7 +49,7 @@ Below is a comparative visualization demonstrating the noise-suppression capabil
 ## Model Architecture
 The spatial feature extractor is built upon the **ConvNeXt-Tiny** architecture, initialized with ImageNet weights during training and instantiated from local weights during inference.
 - **Input:** 3-channel (RGB-stacked) pseudo-image matrices derived from the PCEN spectrograms.
-- **Classification Head:** The fully connected layer is projected to a 234-dimensional space, corresponding to the target species. 
+- **Classification Head:** The fully connected layer is projected to a 234-dimensional space, corresponding to the target species.. 
 - **Regularization:** A dropout rate of 0.2 (0.3 during inference testing) is applied to mitigate over-parameterization.
 - **Loss Function:** Binary Cross-Entropy with Logits Loss (`BCEWithLogitsLoss`), operating under a multi-label classification paradigm.
 
