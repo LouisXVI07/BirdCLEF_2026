@@ -1,7 +1,7 @@
 # BirdCLEF 2026: Pantanal Wetlands Acoustic Biodiversity Monitoring
 
 ## Overview
-This repository contains a machine learning framework developed for the continuous identification of understudied wildlife species within the Pantanal wetlands of Brazil. The Pantanal spans over 150,000 square kilometers and hosts a complex ecological community comprising birds, amphibians, mammals, reptiles, and insects. 
+This repository contains a machine learning framework developed for continuous identification of understudied wildlife species within the Pantanal wetlands of Brazil. The Pantanal spans over 150,000 square kilometers and hosts a complex ecological community comprising birds, amphibians, mammals, reptiles, and insects. 
 
 Understanding how these communities respond to environmental change is a central challenge in conservation science. This project leverages passive acoustic monitoring (PAM) to process continuous, multi-species soundscapes, circumventing the logistical limitations of conventional fieldwork. 
 
